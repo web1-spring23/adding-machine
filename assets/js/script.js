@@ -21,8 +21,9 @@ function clear() {
 }
 
 function meow(){
-    const meowSound = new Audio('assets/audio/cat-meow-6226.mp3');
+    let meowSound = new Audio('assets/audio/cat.mp3');
     meowSound.play();
+    console.log('meow');
 }
 
 let darkModeSetting = false;
