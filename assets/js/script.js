@@ -12,12 +12,15 @@ function addingMachine() {
     let output = number1 + number2;
     document.getElementById("output").innerHTML = output;
   }
+  
 }
 
-function clear() {
+function clearMachine() {
+ 
     document.getElementById("number1").value = "";
     document.getElementById("number2").value = "";
     document.getElementById("output").innerHTML = ""; 
+    
 }
 
 function meow(){
